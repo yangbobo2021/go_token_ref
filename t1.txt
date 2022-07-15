@@ -1,0 +1,602 @@
+dir: .
+bobo/analyzer [/Users/admin/work/go_token_ref/analyzer.go]
+package main ("bobo/analyzer")
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:66:27: "GoFiles" uses field GoFiles []string
+----<<begin2>>----
+golang.org/x/tools/go/packages
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:42:56: "Name" uses func (io/fs.DirEntry).Name() string
+----<<begin2>>----
+io/fs
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:54:62: "LoadSyntax" uses const golang.org/x/tools/go/packages.LoadSyntax golang.org/x/tools/go/packages.LoadMode
+----<<begin2>>----
+golang.org/x/tools/go/packages
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:57:18: "Stderr" uses var os.Stderr *os.File
+----<<begin2>>----
+os
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:42:45: "path" uses var path string
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:51:26: "os" uses package os
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:61:3: "os" uses package os
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:79:4: "fmt" uses package fmt
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:14:5: "err" uses var err error
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:25:9: "false" uses const false untyped bool
+----<<begin2>>----
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:41:19: "d" uses var d io/fs.DirEntry
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:21:11: "true" uses const true untyped bool
+----<<begin2>>----
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:34:18: "ReadDir" uses func os.ReadDir(name string) ([]io/fs.DirEntry, error)
+----<<begin2>>----
+os
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:81:27: "Path" uses func (*go/types.Package).Path() string
+----<<begin2>>----
+go/types
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:42:16: "append" uses builtin append
+----<<begin2>>----
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:54:41: "LoadTypes" uses const golang.org/x/tools/go/packages.LoadTypes golang.org/x/tools/go/packages.LoadMode
+----<<begin2>>----
+golang.org/x/tools/go/packages
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:54:53: "packages" uses package packages ("golang.org/x/tools/go/packages")
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:20:26: "Name" uses func (io/fs.DirEntry).Name() string
+----<<begin2>>----
+io/fs
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:34:26: "path" uses var path string
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:41:62: "d" uses var d io/fs.DirEntry
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:31:32: "path" uses var path string
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:67:3: "fmt" uses package fmt
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:46:9: "path_list" uses var path_list []string
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:54:19: "Config" uses type golang.org/x/tools/go/packages.Config struct{Mode golang.org/x/tools/go/packages.LoadMode; Context context.Context; Logf func(format string, args ...interface{}); Dir string; Env []string; gocmdRunner *golang.org/x/tools/internal/gocommand.Runner; BuildFlags []string; modFile string; modFlag string; Fset *go/token.FileSet; ParseFile func(fset *go/token.FileSet, filename string, src []byte) (*go/ast.File, error); Tests bool; Overlay map[string][]byte}
+----<<begin2>>----
+golang.org/x/tools/go/packages
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:75:28: "TypesInfo" uses field TypesInfo *go/types.Info
+----<<begin2>>----
+golang.org/x/tools/go/packages
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:78:34: "id" uses var id *go/ast.Ident
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:20:14: "HasSuffix" uses func strings.HasSuffix(s string, suffix string) bool
+----<<begin2>>----
+strings
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:33:22: "path" uses var path string
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:66:7: "Println" uses func fmt.Println(a ...any) (n int, err error)
+----<<begin2>>----
+fmt
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:20:6: "strings" uses package strings
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:66:15: "pkg" uses var pkg *golang.org/x/tools/go/packages.Package
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:35:12: "nil" uses nil
+----<<begin2>>----
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:41:43: "hasGoFile" uses func bobo/analyzer.hasGoFile(path string) bool
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:60:14: "PrintErrors" uses func golang.org/x/tools/go/packages.PrintErrors(pkgs []*golang.org/x/tools/go/packages.Package) int
+----<<begin2>>----
+golang.org/x/tools/go/packages
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:34:15: "os" uses package os
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:36:32: "err" uses var err error
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:77:4: "fmt" uses package fmt
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:42:34: "findGoDirs" uses func bobo/analyzer.findGoDirs(path string) []string
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:56:12: "nil" uses nil
+----<<begin2>>----
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:78:9: "Fset" uses field Fset *go/token.FileSet
+----<<begin2>>----
+golang.org/x/tools/go/packages
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:78:23: "id" uses var id *go/ast.Ident
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:12:21: "string" uses type string
+----<<begin2>>----
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:16:10: "false" uses const false untyped bool
+----<<begin2>>----
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:41:8: "IsDir" uses func (io/fs.DirEntry).IsDir() bool
+----<<begin2>>----
+io/fs
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:41:21: "Name" uses func (io/fs.DirEntry).Name() string
+----<<begin2>>----
+io/fs
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:57:40: "err" uses var err error
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:79:8: "Println" uses func fmt.Println(a ...any) (n int, err error)
+----<<begin2>>----
+fmt
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:12:29: "bool" uses type bool
+----<<begin2>>----
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:13:15: "os" uses package os
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:15:32: "err" uses var err error
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:42:4: "path_list" uses var path_list []string
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:54:26: "Mode" uses field Mode golang.org/x/tools/go/packages.LoadMode
+----<<begin2>>----
+golang.org/x/tools/go/packages
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:56:5: "err" uses var err error
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:15:3: "print" uses builtin print
+----<<begin2>>----
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:33:2: "fmt" uses package fmt
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:41:53: "path" uses var path string
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:13:18: "ReadDir" uses func os.ReadDir(name string) ([]io/fs.DirEntry, error)
+----<<begin2>>----
+os
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:30:17: "string" uses type string
+----<<begin2>>----
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:54:32: "packages" uses package packages ("golang.org/x/tools/go/packages")
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:66:19: "ID" uses field ID string
+----<<begin2>>----
+golang.org/x/tools/go/packages
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:80:31: "Pkg" uses func (go/types.Object).Pkg() *go/types.Package
+----<<begin2>>----
+go/types
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:81:9: "Println" uses func fmt.Println(a ...any) (n int, err error)
+----<<begin2>>----
+fmt
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:81:21: "Pkg" uses func (go/types.Object).Pkg() *go/types.Package
+----<<begin2>>----
+go/types
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:83:4: "fmt" uses package fmt
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:55:29: "cfg" uses var cfg *golang.org/x/tools/go/packages.Config
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:57:15: "os" uses package os
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:65:22: "pkgs" uses var pkgs []*golang.org/x/tools/go/packages.Package
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:40:20: "list" uses var list []io/fs.DirEntry
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:60:5: "packages" uses package packages ("golang.org/x/tools/go/packages")
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:78:37: "Name" uses field Name string
+----<<begin2>>----
+go/ast
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:75:38: "Uses" uses field Uses map[*go/ast.Ident]go/types.Object
+----<<begin2>>----
+go/types
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:78:5: "pkg" uses var pkg *golang.org/x/tools/go/packages.Package
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:90:2: "os" uses package os
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:31:14: "append" uses builtin append
+----<<begin2>>----
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:61:6: "Exit" uses func os.Exit(code int)
+----<<begin2>>----
+os
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:75:24: "pkg" uses var pkg *golang.org/x/tools/go/packages.Package
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:76:4: "fmt" uses package fmt
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:78:43: "obj" uses var obj go/types.Object
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:80:7: "obj" uses var obj go/types.Object
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:81:5: "fmt" uses package fmt
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:83:8: "Println" uses func fmt.Println(a ...any) (n int, err error)
+----<<begin2>>----
+fmt
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:55:15: "packages" uses package packages ("golang.org/x/tools/go/packages")
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:55:24: "Load" uses func golang.org/x/tools/go/packages.Load(cfg *golang.org/x/tools/go/packages.Config, patterns ...string) ([]*golang.org/x/tools/go/packages.Package, error)
+----<<begin2>>----
+golang.org/x/tools/go/packages
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:67:15: "pkg" uses var pkg *golang.org/x/tools/go/packages.Package
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:51:15: "findGoDirs" uses func bobo/analyzer.findGoDirs(path string) []string
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:67:7: "Println" uses func fmt.Println(a ...any) (n int, err error)
+----<<begin2>>----
+fmt
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:81:17: "obj" uses var obj go/types.Object
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:20:24: "d" uses var d io/fs.DirEntry
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:31:2: "path_list" uses var path_list []string
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:37:10: "path_list" uses var path_list []string
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:51:29: "Args" uses var os.Args []string
+----<<begin2>>----
+os
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:33:6: "Println" uses func fmt.Println(a ...any) (n int, err error)
+----<<begin2>>----
+fmt
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:58:3: "os" uses package os
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:55:34: "path_list" uses var path_list []string
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:57:7: "Fprintf" uses func fmt.Fprintf(w io.Writer, format string, a ...any) (n int, err error)
+----<<begin2>>----
+fmt
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:66:23: "pkg" uses var pkg *golang.org/x/tools/go/packages.Package
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:29:32: "string" uses type string
+----<<begin2>>----
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:14:12: "nil" uses nil
+----<<begin2>>----
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:54:10: "packages" uses package packages ("golang.org/x/tools/go/packages")
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:78:26: "Pos" uses func (*go/ast.Ident).Pos() go/token.Pos
+----<<begin2>>----
+go/ast
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:41:6: "d" uses var d io/fs.DirEntry
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:42:54: "d" uses var d io/fs.DirEntry
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:67:19: "Types" uses field Types *go/types.Package
+----<<begin2>>----
+golang.org/x/tools/go/packages
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:58:6: "Exit" uses func os.Exit(code int)
+----<<begin2>>----
+os
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:80:27: "obj" uses var obj go/types.Object
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:35:5: "err" uses var err error
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:41:64: "Name" uses func (io/fs.DirEntry).Name() string
+----<<begin2>>----
+io/fs
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:42:23: "path_list" uses var path_list []string
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:57:3: "fmt" uses package fmt
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:76:8: "Println" uses func fmt.Println(a ...any) (n int, err error)
+----<<begin2>>----
+fmt
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:80:11: "Pkg" uses func (go/types.Object).Pkg() *go/types.Package
+----<<begin2>>----
+go/types
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:60:26: "pkgs" uses var pkgs []*golang.org/x/tools/go/packages.Package
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:66:3: "fmt" uses package fmt
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:90:5: "Exit" uses func os.Exit(code int)
+----<<begin2>>----
+os
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:29:22: "string" uses type string
+----<<begin2>>----
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:19:20: "list" uses var list []io/fs.DirEntry
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:36:3: "print" uses builtin print
+----<<begin2>>----
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:13:26: "path" uses var path string
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:31:21: "path_list" uses var path_list []string
+----<<begin2>>----
+bobo/analyzer
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:80:37: "Path" uses func (*go/types.Package).Path() string
+----<<begin2>>----
+go/types
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:77:8: "Printf" uses func fmt.Printf(format string, a ...any) (n int, err error)
+----<<begin2>>----
+fmt
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:78:14: "Position" uses func (*go/token.FileSet).Position(p go/token.Pos) (pos go/token.Position)
+----<<begin2>>----
+go/token
+----<<end>>----
+----<<begin>>----
+/Users/admin/work/go_token_ref/analyzer.go:80:20: "nil" uses nil
+----<<begin2>>----
+----<<end>>----
