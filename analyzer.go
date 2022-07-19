@@ -55,10 +55,10 @@ func main() {
 	pkgs, err := packages.Load(cfg, path_list...)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "load: %v\n", err)
-		os.Exit(1)
+		//os.Exit(1)
 	}
 	if packages.PrintErrors(pkgs) > 0 {
-		os.Exit(1)
+		//os.Exit(1)
 	}
 
 	// 对包进行遍历
